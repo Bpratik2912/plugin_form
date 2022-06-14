@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="jquery.validate.min.js"></script>
+    <!-- <script src="../html/dummyplugin.js"></script> -->
+    <script src="../html/dummyplugin.js"></script>
+
+</head>
+<body>
+  
+  <div class="content"></div>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="../js/form2.js"></script> -->
+  <h1> Customers Details:</h1>
+  <form name="form" id="form">
+    <br>
+    <!--input type="submit" value="Submit"-->
+
+      <h2>Full name<span style="color: red ;">*</span></h2>
+      <div class="row">
+      <div class="col-sm-6">
+        <input type="text1" id="fname" name="fname"><br>
+        <label for="fname">First name</label>
+        
+      </div>
+      <div class="col-sm-6">
+        <input type="text2"  id="lname" name="lname"><br>
+        <lable for="lname">Last name</lable><br>
+        <p id="OP1" style="float: left; padding-right:200px ;"></p>
+        <p id="OP2"></p><br>
+        
+      </div>
+    </div>
+    <div>
+      <h2>Address <span style="color: red ;">*</span></h2>
+      <input type="text3" id="Address1" name="Address1">
+      <p id="OP3"></p><br>
+
+      <label for="Address1">Street Address</label><br><br>
+    </div>
+    <div>
+      <input type="text4" id="Address2" name="Address2">
+      <p id="OPa"></p><br>
+      <label for="Address2">Street Address line2</label><br><br>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <input type="text5" id="city" name="city"><br>
+        <label for="city" >city</label>
+        
+      </div>
+      <div class="col-sm-6">
+        <input type="text6" id="state" name="state"><br>
+        <label for="state">State/province</label>
+        <p id="OP4"></p>
+        <p id="OP5"></p>
+        
+      </div>
+    </div>
+    <div>
+      <input type="number1" id="zipcode" name="zipcode">
+      <p id="OP6"></p>
+      <label for="Postal">Postal/zip code</label><br><br>
+    </div>
+    <div>
+      <h2>Phone Number <span style="color: red ;">*</span></h2>
+      <input type="number2" id="phone" name="phone" placeholder="(000)000-0000">
+      <p id="OP7"></p><br>
+      <label for="phonenumber"></label>
+    </div>
+    <div>
+      <h2>E-mail</h2>
+      <input type="email" id="email" name="email" placeholder="ex: email@yahoo.com">
+      <p id="OP8"></p>
+      <label for="email">email@yahoo.com</email></label><br>
+    </div>
+    <div>
+      <h2>How do you hear about us?<span style="color: red ;">*</span> </h2>
+      <select>
+        <option value="magazine">magazine</option>
+        <option value="friends">friends</option>
+        <option value="newspaper">newspaper</option>
+        <option value="television">television</option>
+      </select>
+    </div>
+    <div>
+      <h2>Feedback about us:</h2>
+      <textarea type="text7" name="feedback" id="feedback" cols="125" rows="10"></textarea>
+      <p id="OP9"></p>
+    </div><br>
+    <!--input type="text"id="Feedback"name="Feedback" size="100"style="padding: 5%"-->
+
+    <div>
+      <h2>Suggestions if for further improvement:</h2>
+      <textarea type="text8" name="suggestion" id="suggestion" cols="125" rows="10"></textarea>
+      <p id="OP10"></p><br><br>
+    </div>
+    <!--input type="text"id="Suggestions"name="Suggestions" size="100"style="padding: 5%"-->
+    <div>
+    
+
+        <label for="vehicle1"><b> Will you be willing to recommend us?</b></label>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <br>
+    
+    </div>
+    <div class="row">
+      <div class="col-sm-1">
+        <h4>Gender:</h4>
+        </div>
+        <div class="col-sm-1">
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender"value="male">
+        </div>
+        <div class="col-sm-1">
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender"value="female" >
+        </div>
+        <div class="col-sm-1">
+        <label for="others">others</label>
+        <input type="radio" id="others" name="gender"value="others" >
+        </div>
+    
+      <p id="OPr"></p><br>
+    </div>
+    <div>
+      <h2>Please give reference of any people whom :</h2>
+      <table style="width: 90%" ;>
+        <tr>
+          <th style="border-top-color: white;border-left-color: white;"></th>
+          <th>Full name</th>
+          <th>Address</th>
+          <th>contact number</th>
+        </tr>
+        <tr>
+          <th>1</th>
+          <th> </th>
+          <th> </th>
+          <th> </th>
+        </tr>
+        <tr>
+          <th>2</th>
+          <th> </th>
+          <th> </th>
+          <th> </th>
+        </tr>
+      </table><br><br>
+    </div>
+    <!--input type="submit" value="Submit"color="green"-->
+    <button type="submit" class="submit" id="submit" name="submit">submit</button>
+
+  </form>
+  
+  
+</body>
+
+</html>
